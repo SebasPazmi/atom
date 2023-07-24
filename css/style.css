@@ -1,0 +1,94 @@
+
+p{
+  color: black; text-align: center;
+}
+h3{
+  color: red;
+}
+h2{
+  color: lightgreen; text-align: center;
+}
+table{
+  border:2px solid;
+}
+img{
+  align: center;
+  height:450px;
+  widtH: 650px;
+
+}
+h1{
+  color: blue;  text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body{
+
+
+  background-image: linear-gradient(135deg, #AF3232, #73EE3A, #50F7D6, #50DBF7, #2970C0, #292EC0, #8729C0);
+  background-size: 500%;
+  animation: fanimado 10s infinite;
+}
+.texto{
+  color: white;
+  text-align: center;
+  margin: 300px 0;
+  font-size: 28px;
+}
+@keyframes fanimado{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+  background-position: 0% 50%;
+  }
+}
+.team1:hover{font-size: 50px; color: purple;}
+.team2:focus{background: lightgreen; color: black; text-align: center;}
+.team3:focus{background: purple; color: lightgreen;}
+.team4:focus{background: red; color: white;}
+#div11{max-height:200px; overflow: hidden; overflow: scroll; overflow-x: hidden;}
+
+<center
+.circulo{
+  width: 200px;
+  height: 200px;
+  background-color: #2E54E0;
+  border-radius: 100%;
+}
+.circulo> .imagen{
+  width: 30%;
+  height: 30%;
+  border-radius: 100%;
+
+}
+.colo:hover{transition: 3s;
+       box-shadow: 5s;
+       background: rgba(60, 216, 105, .5);}
+
+
+.teamtu2{border: 4px
+              solid grey;
+              border-radius: 50px 90px 110px;
+              width: 60%;}
+       .teamtu2:hover{box-shadow: 15px 25px 20px;}
+       .teamtu2:active{font-size: 20px;
+              color: turquoise;}
+
+.fodn2{background: rgba(123, 47,255,100);}
+.fodn3{background: rgba(168, 47,255,100);}
+.fodn4{background: rgba(111, 255,110,100);}
+.fodn5{background: rgba(255, 110,127,100);}
+.fodn6{background: rgba(110, 186,255,100);}
+.fodn7{background: rgba(255, 234,110,100);}
+.fodn8{background: rgba(255, 149,0,100);}
+.fodn9{background: rgba(0, 255,80,100);}
+.fodn10{background: rgba(47, 255,238,100);}
+.fodn11{background: rgba(245, 47,255,100);}
+.fodn12{background: rgba(176, 80,51,100);}
